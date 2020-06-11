@@ -9,6 +9,7 @@ In case of using the Eloquent query builder:
 
 ```php
 
+use PhpOffice\PhpSpreadsheet\Shared\Date;
 use Maatwebsite\Excel\Concerns\FromQuery;
 use Maatwebsite\Excel\Concerns\WithMapping;
 
@@ -35,6 +36,7 @@ You can also return multiple rows inside the map function:
 
 ```php
 
+use PhpOffice\PhpSpreadsheet\Shared\Date;
 use Maatwebsite\Excel\Concerns\FromQuery;
 use Maatwebsite\Excel\Concerns\WithMapping;
 
